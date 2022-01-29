@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./components/homePage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ height: '100%', width:'100%' }}>
+      <HomePage />
+
+      <div style={{ bottom: 0, height: 30, width:'100%', backgroundColor: 'black', color:'white', textAlign: 'center', marginTop:30, marginBottom: 0 }}>
+        <small>Diagonal Software C - 2022</small>
+      </div>
     </div>
   );
 }
